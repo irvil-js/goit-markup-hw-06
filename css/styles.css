@@ -411,6 +411,8 @@ h2 {
   border-radius: 4px;
   height: 38px;
   border: none;
+  transition: color var(--timing-function),
+    background-color var(--timing-function), box-shadow var(--timing-function);
 }
 
 .btn:hover,
@@ -422,7 +424,7 @@ h2 {
   color: var(--white-clr);
   outline: none;
   transition: color var(--timing-function),
-    background-color var(--timing-function);
+    background-color var(--timing-function), box-shadow var(--timing-function);
 }
 
 .project {
@@ -721,6 +723,8 @@ h2 {
 
 .btn-portfolio {
   margin-right: 8px;
+  transition: color var(--timing-function),
+    background-color var(--timing-function);
 }
 
 .btn-portfolio:last-child {
