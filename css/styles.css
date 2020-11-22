@@ -1036,7 +1036,10 @@ textarea {
   line-height: 1.143;
   letter-spacing: 0.01em;
   color: var(--main-text-color);
+  outline: none;
+  transition: border-color var(--timing-function);
 }
+
 .form-label {
   display: inline-block;
   font-family: "Roboto", sans-serif;
@@ -1056,7 +1059,7 @@ textarea {
   font-size: 16px;
   line-height: 1.167;
   letter-spacing: 0.01em;
-  /*color: var(--title-color);*/
+  color: var(--title-color);
   padding: 0;
   margin: 0;
   height: 40px;
@@ -1072,6 +1075,13 @@ textarea {
   border-color: var(--accent-color);
   transition: border-color var(--timing-function);
 }
+
+.field:focus,
+.field:not(:placeholder-shown) {
+  border-color: var(--accent-color);
+  transition: border-color var(--timing-function);
+}
+
 .comment-field {
   display: flex;
   flex-direction: column;
