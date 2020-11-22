@@ -957,7 +957,7 @@ h2 {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 
 .btn-send {
@@ -966,7 +966,6 @@ h2 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex-block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -980,4 +979,63 @@ h2 {
   border: none;
   transition: color var(--timing-function),
     background-color var(--timing-function), box-shadow var(--timing-function);
+}
+
+textarea {
+  resize: none;
+}
+
+.form {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  text-align: start;
+
+  /* height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;*/
+  margin-bottom: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  height: 120px;
+  margin-bottom: 20px;
+  margin-top: 4px;
+  padding: 0;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.form-label {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
+  margin-bottom: 4px;
+}
+
+.form-input {
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.comment-field {
+  text-align: start;
 }

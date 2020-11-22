@@ -69,14 +69,42 @@
                 </button>
               </div>
               <p class="modal-form">Оставьте свои данные, мы вам перезвоним</p>
-              <form>
-                <label for="name">Имя</label>
-                <input type="text" name="name" id="name" />
-                <label for="phonenumber">Телефон</label>
-                <input type="tel" name="name" id="phonenumber" />
-                <label for="mail">Почта</label>
-                <input type="email" name="mail" id="mail" />
-                <button type="submit" class="btn btn-send">Отправить</button>
+              <form class="form">
+                <div class="form-field">
+                  <label for="name" class="form-label">Имя</label>
+                  <input type="text" name="name" id="name" class="form-input" />
+                </div>
+                <div class="form-field">
+                  <label for="phonenumber" class="form-label">Телефон</label>
+                  <input
+                    type="tel"
+                    name="name"
+                    id="phonenumber"
+                    class="form-input"
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="mail" class="form-label">Почта</label>
+                  <input
+                    type="email"
+                    name="mail"
+                    id="mail"
+                    class="form-input"
+                  />
+                </div>
+                <div class="comment-field">
+                  <label for="comment" class="form-label">Комментарий</label>
+                  <textarea
+                    name="message"
+                    id="comment"
+                    placeholder="Введите текст"
+                    class="field"
+                  >
+                  </textarea>
+                </div>
+                <div>
+                  <button type="submit" class="btn btn-send">Отправить</button>
+                </div>
               </form>
             </div>
           </div>
