@@ -69,11 +69,16 @@
                 </button>
               </div>
               <p class="modal-form">Оставьте свои данные, мы вам перезвоним</p>
-              <form class="form">
+              <form class="form" autocomplete="off">
                 <div class="form-field">
                   <label for="name" class="form-label">Имя</label>
-                  <input type="text" name="name" id="name" class="form-input" />
-                  <svg class="icon-modal icon-modal-name">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder=" "
+                    class="form-input"
+                  /><svg class="icon-modal icon-modal-name">
                     <use href="./icons/symbol-defs.svg#icon-person-black"></use>
                   </svg>
                 </div>
@@ -83,6 +88,7 @@
                     type="tel"
                     name="name"
                     id="phonenumber"
+                    placeholder=" "
                     class="form-input"
                   /><svg class="icon-modal icon-modal-mob">
                     <use href="./icons/symbol-defs.svg#icon-phone-black"></use>
@@ -94,6 +100,7 @@
                     type="email"
                     name="mail"
                     id="mail"
+                    placeholder=" "
                     class="form-input"
                   /><svg class="icon-modal icon-modal-mail">
                     <use href="./icons/symbol-defs.svg#icon-email-black"></use>
