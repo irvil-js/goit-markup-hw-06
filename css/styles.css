@@ -486,7 +486,7 @@ h2 {
 }
 
 .auth-nav {
-  display: flex-block;
+  display: flex;
   margin-left: auto;
 }
 
@@ -635,7 +635,7 @@ h2 {
 
 .box-thumb {
   position: relative;
-  display: flex-block;
+  display: flex;
   overflow: hidden;
 }
 
@@ -945,7 +945,6 @@ h2 {
 
 .modal-form {
   display: inline-block;
-  background-color: red;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1012,9 +1011,20 @@ textarea {
   height: 120px;
   margin-bottom: 20px;
   margin-top: 4px;
-  padding: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
 }
 .form-label {
   display: inline-block;
@@ -1029,13 +1039,33 @@ textarea {
 }
 
 .form-input {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.167;
+  letter-spacing: 0.01em;
+  color: var(--title-color);
   padding: 0;
   margin: 0;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding-left: 42px;
 }
 
 .comment-field {
+  display: flex;
+  flex-direction: column;
   text-align: start;
+}
+
+.comment-field textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
