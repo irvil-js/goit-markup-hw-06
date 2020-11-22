@@ -1074,15 +1074,15 @@ textarea {
 .icon-modal {
   position: absolute;
   display: block;
-  bottom: 0;
-  left: 0;
+  bottom: 14px;
+  left: 14px;
   fill: var(--title-color);
-  transform: translate(100%, -120%);
 }
 
 .icon-modal-name {
   width: 12px;
   height: 12px;
+  left: 15px;
 }
 
 .icon-modal-mail {
@@ -1093,5 +1093,4 @@ textarea {
 .icon-modal-mob {
   width: 13px;
   height: 13px;
-  transform: translate(100%, -100%);
 }
