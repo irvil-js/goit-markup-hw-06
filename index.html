@@ -656,7 +656,7 @@
         </div>
         <div class="subscribe">
           <p class="join">Подпишись на рассылку</p>
-          <div class="subsribe-form">
+          <form class="form subsribe-form" autocomplete="off">
             <input
               type=" text"
               name="mailing"
@@ -664,13 +664,13 @@
               placeholder="E-mail"
               class="mailing-input"
             />
-            <button class="mailing-btn">
+            <button type="submit" class="mailing-btn">
               Подписаться
               <svg class="send-icon">
                 <use href="./icons/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>

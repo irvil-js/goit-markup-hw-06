@@ -1182,6 +1182,12 @@ textarea {
   background-origin: border-box;
 }
 
+.checkbox-name {
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-color);
+}
+
 .subscribe {
   margin-left: 93px;
   margin-right: 0;
@@ -1191,6 +1197,7 @@ textarea {
 
 .subsribe-form {
   display: flex;
+  padding: 0;
 }
 
 .mailing-input {
